@@ -7,6 +7,7 @@ A modern, high-performance, full-stack e-commerce web platform built with **Reac
 ## 🌟 Key Features
 
 ### 🛍️ Customer Storefront
+
 - **Live Search & Filter**: Real-time product search with category pills (*Electronics, Fashion, Home & Living, Accessories*) and price sorting.
 - **Interactive Product Catalog**: High-res images, stock indicators, ratings & reviews.
 - **Smart Shopping Cart**: Real-time badge counter, dynamic quantity selectors, stock limits, and free shipping calculator (Free delivery on orders > Rs. 3,000).
@@ -15,6 +16,7 @@ A modern, high-performance, full-stack e-commerce web platform built with **Reac
 - **Wishlist**: Save favorite items and move them to cart with one click.
 
 ### 🛡️ Protected Admin Portal (`/admin`)
+
 - **Security Clearance Gate**: Password-protected entrance with 256-bit encryption check.
 - **Real-Time Analytics**: Net sales (Rs.), total orders, inventory counters, and zero-stock alerts.
 - **Product CRUD**: Add new items with image previews, edit prices/stock, and delete products directly from MongoDB.
@@ -36,10 +38,12 @@ A modern, high-performance, full-stack e-commerce web platform built with **Reac
 ## 🚀 Quick Start Guide
 
 ### 1. Prerequisites
+
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [MongoDB](https://www.mongodb.com/) running locally or MongoDB Atlas URI
 
 ### 2. Installation
+
 Clone the repository and install dependencies:
 
 ```bash
@@ -57,7 +61,9 @@ npm install
 ```
 
 ### 3. Environment Variables
+
 Create a `.env` file in the `backend` folder:
+
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/nexustore
@@ -65,12 +71,14 @@ JWT_SECRET=supersecretnexustorekey123
 ```
 
 ### 4. Seed Database (Optional)
+
 ```bash
 cd backend
 npm run seed
 ```
 
 ### 5. Run Application
+
 ```bash
 # Start Unified Server (Port 5000)
 cd backend
@@ -103,4 +111,5 @@ Or on Windows, simply double-click:
 ---
 
 ## 📄 License
+
 MIT License. Built with ❤️ for seamless e-commerce.
