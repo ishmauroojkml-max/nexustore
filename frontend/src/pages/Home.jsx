@@ -5,7 +5,8 @@ import ProductCard from '../components/ProductCard';
 import { ProductSkeleton } from '../components/Loader';
 import { Sparkles, ShieldCheck, Truck, Headphones, Search, ArrowRight } from 'lucide-react';
 
-const API_URL = '/api/products';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://nexustore-pearl.vercel.app';
+const API_URL = `${API_BASE_URL}/api/products`;
 
 const categories = [
   { name: 'All Products', icon: '🛍️' },
