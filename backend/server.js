@@ -12,6 +12,9 @@ import orderRoutes from './routes/orderRoutes.js';
 import Product from './models/Product.js';
 import User from './models/User.js';
 import Order from './models/Order.js';
+import cors from 'cors';
+// Is line ko add/update karein taake har origin allow ho jaye:
+app.use(cors());
 
 // Resolve __dirname in ES module
 const __filename = fileURLToPath(import.meta.url);
